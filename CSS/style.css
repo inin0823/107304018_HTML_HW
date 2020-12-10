@@ -1,0 +1,115 @@
+body{
+	background: #F2F5EA;
+	color:#2C363F;
+	font-size: 20px;
+	font:Atial,Helvetica,sans-serif;
+}
+img{
+	float:left;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-right: 5%;
+	margin-left: 10%;
+}
+#aboutMe{
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 1%;
+	padding-left:1%;
+	float:center;
+	font-size: 50px;
+	background: #EC9A29;
+	max-width: 50%;
+	margin: 0 auto;
+}
+#profile{
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	margin-right: 10%;
+	margin-left: 5%;
+	font-size:20px;
+}
+#introduction{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-right: 10%;
+	margin-left: 5%;
+	font-size:16px;
+}
+.left{
+	position: relative;
+	float:left;
+	height: 350px;
+	width: 50%;
+	background-color: #0F8B8D;
+	font-size: 20px;
+}
+.right{
+	position: relative;
+	float: left;
+	height: 350px;
+	width: 50%;
+	background-color: #CA3C25;
+	font-size: 20px;
+}
+.title{
+	background-color: #F2F5EA;
+	max-width: 30%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 3%;
+	padding: 2%;
+	font-size: 25px;
+	border-style: dashed;
+	border-color: #EC9A29;
+	border-radius: 20px;
+}
+.content{
+	color:#F2F5EA;
+}
+#contact{
+	max-width: 30%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 5%;
+	padding: 2%;
+	font-size: 25px;
+	border-style: dashed;
+	border-color: #EC9A29;
+	border-radius: 10px;
+}
+H3{
+	margin-top:30%;
+	max-width: 20%;
+	text-align: center;
+	font-size: 25px;
+	border-style: dashed;
+	border-color: #EC9A29;
+	border-radius: 10px;
+	float: center;
+}
+@media screen and (max-width:760px){
+	#aboutMe{
+		background-color: #0F8B8D;
+	}
+	#profile{
+		margin-bottom: 14%;
+	}
+	.title{
+		max-width: 50%;
+		border-radius: 5px;
+	}
+	H3{
+		max-width: 30%;
+		border-radius: 5px;
+		margin-top:60%;
+	}
+	.left{
+		background-color: #CA3C25;
+	}
+	.right{
+		background-color:#EC9A29;
+	}
+}
